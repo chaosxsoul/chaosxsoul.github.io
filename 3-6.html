@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display model</title>
+    <style>
+        div,
+        span {
+            border: 2px solid lightblue;
+            margin: 3px;
+            padding: 5px
+        }
+
+        .none {
+            display: none;
+        }
+
+        .block1 {
+            display: block;
+        }
+
+        .block2 {
+            display: block;
+            width: 250px;
+            height: 50px;
+        }
+
+        .inline {
+            display: inline;
+            width: 200px;
+            height: 50px;
+        }
+
+        .inline-block {
+            display: inline-block;
+            width: 200px;
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="block1">block1</div>
+        <div class="blcok2">block2</div>
+        <span class="inline">Inline box</span>
+        <span class="inline-block">Inline-block box</span>
+    </div>
+    <div class="none">
+        <h2>Hello</h2>
+    </div>
+    <div>
+        <h2>World</h2>
+    </div>
+</body>
+</html>
